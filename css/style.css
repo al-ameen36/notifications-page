@@ -1,0 +1,75 @@
+.text-primary {
+  color: hsl(219deg, 85%, 26%) !important;
+}
+
+.text-secondary-1 {
+  color: hsl(219deg, 12%, 42%) !important;
+}
+
+.text-secondary-2 {
+  color: hsl(224deg, 21%, 14%) !important;
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: hsl(219deg, 85%, 26%) !important;
+}
+
+body {
+  font: 14px "Plus Jakarta Sans", sans-serif;
+}
+
+h2,
+h3,
+.h5,
+.h6 {
+  font-weight: 800;
+  line-height: 1;
+}
+
+main {
+  max-width: 696px !important;
+}
+
+.notification {
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+}
+.notification.unread {
+  background-color: hsl(210deg, 60%, 98%);
+}
+.notification.unread .dot {
+  height: 8px;
+  width: 8px;
+}
+.notification img {
+  height: 2.5rem;
+}
+.notification .user {
+  font-size: 15px;
+}
+.notification .content {
+  padding-left: 0.75rem;
+}
+.notification .body a {
+  color: inherit;
+  font-weight: 800;
+  text-decoration: none;
+}
+.notification .time {
+  color: hsl(219deg, 14%, 63%);
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    font-size: 16px;
+  }
+  .notification__header h2 {
+    font-size: 1.5rem;
+  }
+  .notification .user {
+    font-size: inherit;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
