@@ -60,7 +60,7 @@ main {
   color: hsl(219deg, 14%, 63%);
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
   body {
     font-size: 16px;
   }
