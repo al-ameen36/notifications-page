@@ -28,7 +28,9 @@ h3,
 }
 
 main {
+  background-color: hsl(0deg, 0%, 100%);
   max-width: 696px !important;
+  border-radius: 0.5rem;
 }
 
 .notification {
@@ -67,7 +69,9 @@ main {
 
 @media screen and (min-width: 768px) {
   body {
+    background-color: hsl(210deg, 60%, 98%);
     font-size: 16px;
+    padding: 3.5rem 0;
   }
   .notification__header h2 {
     font-size: 1.5rem;
