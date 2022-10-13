@@ -29,8 +29,8 @@ h3,
 
 main {
   background-color: hsl(0deg, 0%, 100%);
-  max-width: 696px !important;
   border-radius: 0.5rem;
+  max-width: 696px !important;
 }
 
 .notification {
