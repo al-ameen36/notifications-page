@@ -35,6 +35,11 @@ main {
   margin-bottom: 0.75rem;
   padding: 1rem;
 }
+.notification .dot {
+  height: 0;
+  transition: 0.3s;
+  width: 0;
+}
 .notification.unread {
   background-color: hsl(210deg, 60%, 98%);
 }
