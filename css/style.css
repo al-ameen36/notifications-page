@@ -19,6 +19,12 @@ body {
   font: 14px "Plus Jakarta Sans", sans-serif;
 }
 
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
 h2,
 h3,
 .h5,
@@ -59,9 +65,7 @@ main {
   padding-left: 0.75rem;
 }
 .notification .body a {
-  color: inherit;
   font-weight: 800;
-  text-decoration: none;
 }
 .notification .time {
   color: hsl(219deg, 14%, 63%);
@@ -73,12 +77,10 @@ main {
     font-size: 16px;
     padding: 3.5rem 0;
   }
-  .notification__header h2 {
+  .notification__header h1 {
     font-size: 1.5rem;
   }
   .notification .user {
     font-size: inherit;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
